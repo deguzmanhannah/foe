@@ -1,0 +1,979 @@
+/* RESET CSS ////////////////////////////////////////// */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/**************** ADDED **************/
+/* FONTS /////////////////////////////////////////////// */
+
+/* app font */
+@font-face {
+  font-family: "AppFont";
+  src: url(../css/fonts/SF-Pro-Display-Regular.otf);
+}
+
+/* GENERAL APP STYLES /////////////////////////////////// */
+
+body {
+  font-size: 14px;
+  overflow: hidden;
+}
+
+main {
+  position: absolute;
+  width: 375px;
+  height: 667px;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  position: absolute;
+  top: 0;
+  padding: 15px;
+}
+
+section {
+  position: absolute;
+  /* top: 60px; */
+  width: 375px;
+  height: 547px;
+  background: #fff;
+  overflow: auto;
+  /* padding: 20px; */
+}
+
+footer {
+  width: 375px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+}
+
+
+/**************** Splash Screen **************/
+
+#splash {
+  background-image: url(../img/launchbg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+
+#splash img {
+  width: 173px;
+  height: auto;
+}
+
+
+/**************** Landing Screen **************/
+
+
+#landing {
+  font-family: "AppFont";
+  background-image: url(../img/choicebg.jpg);
+  background-size: cover;
+  padding-top: 30px;
+}
+
+.landingLogos {
+  margin: 0px;
+  padding:0px;
+}
+
+#ceviche {
+  float: left;
+  width: 180px;
+}
+
+#fivevines {
+  float: right;
+  width: 180px;
+  margin-top: 40px;
+}
+
+#hearth {
+  float: left;
+  width: 180px;
+  margin-top: 40px;
+}
+
+#logo1txt {
+  float: right;
+  margin-right: 20px;
+  margin-top: 90px;
+}
+
+.restheader {
+  font-size: 20px;
+  margin: 0px;
+  padding:0px;
+}
+
+.resttext {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+#logo2txt {
+  float: left;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+#logo3txt {
+  float: right;
+  margin-right: 45px;
+  margin-top: 90px;
+}
+
+/**************** Restaurant 1 **************/
+
+.sectionContainer {
+  text-align: center;
+  overflow: auto;
+  color: #000;
+}
+
+#rest1 header {
+  width: 375px;
+  background: rgb(168,186,174);
+  background: linear-gradient(90deg, rgba(168,186,174,1) 64%, rgba(212,176,146,1) 100%);
+  font-family: "AppFont";
+  position: relative;
+  bottom: 40px;
+}
+
+header img {
+  width: 35px;
+  height: auto;
+  float: left;
+  margin-right: 85px;
+}
+
+header h1 {
+  color: #fff;
+}
+
+.greenContainer {
+  width: 375px;
+  height: auto;
+  background-color: #A8BAAE;
+  border-radius: 50px;
+  padding: 0px;
+}
+
+#foodimg {
+  max-width: 100%;
+  padding-top: 20px;
+  height: auto;
+}
+
+.bar h2 {
+  font-size: 26px;
+ padding-top: 30px;
+ padding-left: 25px;
+ padding-bottom: 10px;
+  text-align: left;
+  font-family: "AppFont";
+}
+
+.historytxt p {
+text-align: left;
+padding-left: 20px;
+padding-right:20px;
+font-family: "AppFont";
+}
+
+
+.hours h2 {
+  font-family: "AppFont";
+text-align: left;
+font-size: 26px;
+  margin-left: 20px;
+  margin-top: 40px;
+  color: black;
+}
+
+.hours img {
+  float: right;
+  margin-right: 50px;
+  position: relative;
+  bottom: 38px;
+}
+
+#hourcircle {
+background-image: url(../img/circle.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 300px 300px;
+padding-top: 80px;
+width: 300px;
+height: 300px;
+float: left;
+margin-left: -100px;
+margin-top: 20px;
+}
+
+#hourcircle p {
+  color: black;
+  font-family: "AppFont";
+  padding: 5px;
+  text-align: left;
+  margin-left: 108px;
+  position: relative;
+  bottom: 15px;
+}
+
+#dining {
+  float: right;
+  padding-left: 20px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  bottom: 280px;
+  left: 18px; 
+}
+
+.address h2 {
+  text-align: left;
+  font-size: 26px;
+  color: black;
+  font-family: "AppFont";
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.location p {
+text-align: left;
+float: left;
+font-family: "AppFont";
+position: relative;
+left: 20px;
+
+}
+
+#map2 {
+  margin: 0px;
+  position: relative;
+  bottom: 200px;
+}
+
+#rest1 .logo {
+  width: 80%;
+  height: auto;
+  margin: 15px 0;
+}
+
+#contactname {
+  position: relative;
+  bottom: 200px;
+  left: 10px;
+}
+
+.phoneBtn {
+  background-color: white;
+  width: 180px; 
+  height: 60px;
+  border-radius: 100px;
+  position: relative;
+  bottom: 100px;
+  left: 90px;
+}
+
+.phoneBtn img {
+  padding: 0px;
+  float: right;
+  position: relative;
+  right: 130px;
+  top: 20px;
+}
+
+.phoneBtn a {
+  float: right;
+  line-height: 90px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  right: 20px;
+  bottom: 90px;
+  font-family: "AppFont";
+}
+
+.phoneBtn a:hover {
+  color: #755A40;
+}
+
+.webBtn {
+  background-color: white;
+  width: 180px; 
+  height: 60px;
+  border-radius: 100px;
+  margin-left: 92px;
+position: relative;
+bottom: 80px;
+}
+
+.webBtn img {
+  position: relative;
+  bottom: 115px;
+  right: 10px;
+}
+
+.webBtn a {
+  line-height: 90px;
+  text-decoration: none;
+  color: black;
+  font-family: "AppFont";
+  position: relative;
+  bottom: 120px;
+}
+
+.weBtn a:hover {
+  color: #755A40
+}
+
+/**SPECIALS STYLES */
+
+#specials_header {
+  width: 375px;
+}
+
+.specials {
+  overflow: auto;
+}
+
+.specials h2 {
+  font-family: "AppFont";
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 25px;
+  color: #755A40;
+}
+
+/* Styles for the food containers */
+.foodbox {
+  width: 140px;
+  height: 180px;
+  margin-left: 10px;
+  margin-top: 30px;
+  background-color: #755A40;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.stars {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.foodName {
+  color: white;
+  font-family: "AppFont";
+  margin-top: 30px;
+  margin-left: 10px;
+  padding-right: 40px;
+}
+
+.price {
+  color: white;
+  font-family: "AppFont";
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+/* food container 1 styles */
+#foodcontain1 {
+  float: left;
+  margin-left: 10px;
+  background-color: #A8BAAE;
+}
+
+#cevicheimg {
+  float: right;
+  position: relative;
+  left: 55px;
+  bottom: 135px;
+}
+
+#add {
+  position: relative;
+  bottom: 25px;
+  left: 100px;
+}
+
+/* food container 2 styles */
+
+#foodcontain2 {
+  float: right;
+  margin-right: 10px;
+  background-color: #D4B092;
+}
+
+#imgsalmon {
+  position: relative;
+  bottom: 110px;
+  left: 94px;
+}
+
+#price2 {
+  position: relative;
+  top: 30px;
+}
+
+#add2 {
+  position: relative;
+  bottom: 80px;
+  right: 5px;
+}
+
+/* Food container 3 styles */
+
+#foodcontain3 {
+float: left;
+margin-left: 10px;
+background-color: #A8BAAE;
+}
+
+#empanadaimg {
+float: right;
+ position: relative;
+ bottom: 130px;
+ left: 50px;
+}
+
+#add3 {
+  position: relative;
+  left: 100px;
+  bottom: 20px;
+}
+
+#price3 {
+margin-top: 60px;
+}
+
+#empanadatxt {
+ 
+  position: relative;
+  top: 15px;
+}
+
+/* foodc container 4 styles */
+
+#foodcontain4 {
+float: right;
+background-color: #D4B092;
+margin-right: 10px;
+}
+
+#musselsimg {
+  position: relative;
+  bottom: 90px;
+  left: 93px;
+}
+
+#price4 {
+  position: relative;
+  top: 30px;
+}
+
+#add4 {
+  position: relative;
+  bottom: 65px;
+  right: 5px;
+}
+
+/* Food container 5 styles */
+
+
+#foodcontain5 {
+  float: left;
+  margin-left: 10px;
+  background-color: #A8BAAE;
+}
+
+#shrimpimg {
+ float: right;
+ position: relative;
+ bottom: 130px;
+ left: 40px;
+}
+
+#price5 {
+  margin-top: 45px;
+}
+
+#add5 {
+  float: right;
+  position: relative;
+  left: 85px;
+  bottom: 20px;
+}
+
+/* food container 6 syles */
+
+
+#foodcontain6 {
+  float: right;
+  background-color: #D4B092;;
+  margin-right: 20px;
+}
+
+#salmonimg {
+  position: relative;
+  bottom: 80px;
+  left: 93px;
+}
+
+#price6 {
+  position: relative;
+  top: 60px;
+}
+
+#add6 {
+  position: relative;
+  bottom: 48px;
+  right: 5px;
+}
+
+/**RESERVATIONS SECTION STYLES */
+
+.reserveHeader {
+  font-family: "AppFont";
+  color: white;
+  font-size: 35px;
+}
+#reserveContainer {
+  background: rgb(168,186,174);
+  background: linear-gradient(90deg, rgba(168,186,174,1) 64%, rgba(212,176,146,1) 100%);
+  height: 750px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#formcontainer {
+  margin-top: 20px;
+  width: 355px;
+  height: 560px;
+  border-radius: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+label {
+  color:#755A40;
+  font-size: 15px;
+  font-family: "AppFont";
+}
+
+#bookBtn {
+background-color: rgb(58, 58, 61);
+width: 180px;
+height: 60px;
+float: left;
+margin: 40px;
+border-radius: 15px;
+font-family: "AppFont";
+line-height: 60px;
+font-size: 20px;
+text-align: center;
+color: white;
+text-decoration: none;
+scale: (0);
+outline: none;
+box-shadow: 0 9px #999;
+position: relative;
+top: 90px;
+left: 20px;
+transition: all 0.3s ease 0s scale 3s ;
+}
+
+#bookBtn:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 5px rgb(58, 58, 61);
+  scale:(1.3);
+  background-color: #666;
+}
+
+#btn6:active {
+  background-color:#EBEBEB;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/*! RESTAURANT 2 STYLES */
+
+#rest2 header {
+  background: rgb(153,172,158);
+  background: linear-gradient(90deg, rgba(153,172,158,1) 50%, rgba(204,199,199,1) 100%);
+  width: 375px;
+  font-family: "AppFont";
+  position: relative;
+  bottom: 40px;
+}
+
+#pinkContain {
+  background-color: #D4B4A2;
+}
+
+#pastaimg {
+  position: relative;
+  left: 70px;
+  bottom: 90px;
+  float: right;
+  margin-left: 50px;
+}
+
+#fiveadd2 {
+  position: relative;
+  bottom: 95px;
+  left: 90px;
+}
+
+#fivefoodcontain2 {
+  background-color: #707070;
+  float: right;
+  margin-right: 10px;
+}
+
+#fivefoodcontain4 {
+  float: right;
+  margin-right: 10px;
+  background-color: #707070;
+}
+
+#fivefoodcontain1 {
+  background-color: #707070;
+}
+
+#fivefoodcontain6 {
+ background-color: #707070; 
+ float: right;
+ margin-right: 10px;
+}
+
+#reserveContainer2 {
+  background: rgb(153,172,158);
+  background: linear-gradient(90deg, rgba(153,172,158,1) 50%, rgba(204,199,199,1) 100%);
+  height: 750px;
+}
+
+#imglasagna {
+  float: right;
+ position: relative;
+ bottom: 136px;
+ left: 50px;
+}
+
+#risottoimg {
+  position: relative;
+  bottom: 90px;
+  left: 93px;
+}
+
+#imgpizza {
+  position: relative;
+  bottom: 140px;
+  left: 80px;
+}
+
+#fiveadd1 {
+  position: relative;
+  bottom: 140px;
+  left: 100px;
+}
+
+#fiveadd4 {
+  position: relative;
+  bottom: 68px;
+  right: 10px;
+}
+
+
+/*!RESTAURANT 3 STYLES */
+
+
+#rest3 header {
+  width: 375px;
+  background: rgb(204,159,127);
+  background: linear-gradient(90deg, rgba(204,159,127,1) 50%, rgba(244,244,244,1) 100%);
+  font-family: "AppFont";
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+}
+
+#hearthTitle {
+  color: white;
+  text-align: center;
+ margin-left: 100px;
+ position: relative;
+ right: 50px;
+ 
+
+}
+
+#greyContain {
+  background-color: #ADA9A9;
+}
+
+#soupimg {
+  float: right;
+  position: relative;
+  left: 55px;
+  bottom: 125px;
+}
+
+#hearthadd {
+  position: relative;
+  bottom: 5px;
+  left: 100px;
+}
+
+#macimg {
+  position: relative;
+  left: 70px;
+  bottom: 90px;
+  float: right;
+  margin-left: 50px;
+}
+
+#hearthadd2 {
+  position: relative;
+  bottom: 85px;
+  left: 100px;
+}
+
+#imgcroissant {
+  float: right;
+ position: relative;
+ bottom: 90px;
+ left: 50px;
+}
+
+#saladimg {
+  position: relative;
+  bottom: 90px;
+  left: 93px;
+}
+
+#hearthprice3 {
+  position: relative;
+top: 40px;
+}
+
+#hearthadd3 {
+  position: relative;
+  left: 100px;
+  top: 26px;
+}
+
+#avacadoimg {
+  position: relative;
+  bottom: 130px;
+  left: 80px;
+}
+
+#hadd5 {
+  position: relative;
+  bottom: 106px;
+  right: 10px;
+}
+
+#hearthprice6 {
+  position: relative;
+  top: 45px;
+}
+
+#hearthadd6 {
+  position: relative;
+  bottom: 62px;
+  right: 10px;
+}
+
+#reserveContainer3 {
+  background: rgb(204,159,127);
+  background: linear-gradient(90deg, rgba(204,159,127,1) 50%, rgba(244,244,244,1) 100%);
+  height: 750px;
+}
+
+#foodcontain1Hearth {
+  background-color: #755A40;
+  float: left;
+  margin-left: 10px;
+}
+
+#foodcontain2Hearth {
+  float: right;
+  margin-right: 10px;
+  background-color: #D4B092;
+}
+
+#foodcontain3Hearth {
+  float: left;
+margin-left: 10px;
+background-color: #755A40;
+}
+
+#foodcontain4Hearth {
+float: right;
+background-color: #D4B092;
+margin-right: 10px;
+}
+
+#foodcontain5Hearth {
+  float: left;
+margin-left: 10px;
+background-color: #755A40;
+}
+
+
+#foodcontain6Hearth {
+  float: right;
+  background-color: #D4B092;
+  margin-right: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Menu Styles */
+#menu {
+  font-family: "AppFont";
+  background: #EBEBEB;
+  padding-top: 80px;
+}
+
+#menu header {
+  padding: 15px;
+  width: 375px;
+  border-bottom: solid 5px #fff;
+  background: rgb(235,235,235);
+background: linear-gradient(0deg, rgba(235,235,235,1) 0%, rgba(212,180,162,1) 100%);
+  color: #fff;
+  font-size: 20px;
+  line-height: 100%;
+  font-family: "AppFont";
+  text-align: left;
+}
+
+.menuBtn {
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 100%;
+  border-bottom: solid 2px #707070;
+}
+
+.menuBtn img {
+  width: 25px;
+  height: auto;
+  float: left;
+  margin-right: 7px;
+}
+
+.menuBtn span {
+  display: block;
+  margin-top: 2px;
+}
+
+.contactIcon {
+  margin-top: 3px;
+}
+
+
+
+
+/**Footer Styles */
+footer {
+  width: 375px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  background-color: #707070;
+  font-family: "Appfont"
+}
+
+footer img {
+  height: 25px;
+  width: auto;
+}
+
+footer div {
+  float: left;
+  text-align: center;
+  overflow: auto;
+  font-size: 12px;
+  padding: 10px;
+  color: #fff;
+}
+
+.homeIcon,
+.specialsIcon,
+.reservationsIcon {
+  transition: all 1s;
+}
+
+#rest1 .homeIcon {
+  margin-left: 55px;
+}
+
+#rest1 .specialsIcon {
+  margin-left: 30px;
+  margin-right: 25px;
+}
+
+/**Footer styles restaurant2  */
+
+#rest2 .homeIcon {
+  margin-left: 55px;
+}
+
+#rest2 .specialsIcon {
+  margin-left: 30px;
+  margin-right: 25px;
+}
+
+/* *Footer styles reastaurant 3 */
+
+#rest3 .homeIcon {
+  margin-left: 55px;
+}
+
+#rest3 .specialsIcon {
+  margin-left: 30px;
+  margin-right: 25px;
+  color: white;
+}
